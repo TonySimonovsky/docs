@@ -1,12 +1,19 @@
 # Installation
 
 ## Steps
-1. Install Poetry
-2. Install Naptha SDK
-3. Setup dev environment
+1. Install pipx
+2. Install Poetry
+3. Install Naptha SDK
+4. Setup dev environment
 
 ## Guide
-### 1. Install Poetry with pipx
+### 1. Install pipx
+##### Run this command:
+```bash
+pipx install poetry
+```
+
+### 2. Install Poetry with pipx
 Naptha uses a Python dependency management tool called Poetry. Learn more about Poetry in their official [docs](https://python-poetry.org/docs).
 
 > Poetry should always be installed in a dedicated virtual environment to isolate it from the rest of your system.
@@ -16,7 +23,7 @@ Naptha uses a Python dependency management tool called Poetry. Learn more about 
 pipx install poetry
 ```
 
-### 2. Install Naptha SDK
+### 3. Install Naptha SDK
 The best place to start is our [Naptha SDK](https://github.com/NapthaAI/naptha-sdk) code base on GitHub. Follow these steps to install it from source:
 
 #### Clone the Repository
